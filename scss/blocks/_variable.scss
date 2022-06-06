@@ -1,0 +1,82 @@
+$colorblack: #252525;
+$coloryellow: #FFC53A;
+$colordarkblue: #2B2A72;
+$colorblue: #36348E;
+$colorpurplelight: #CDD4FB;
+$colorbluelight: #B7D8EF;
+$colorbeige: #FAFAFA;
+$colorwhite: #fff;
+html, body {
+  height: 100%;
+}
+body {
+  font-family: Source Sans Pro;
+  color: $colorblack;
+  font-size: 18px;
+  line-height: 27px;
+  min-width: 375px;
+}
+.wrapper {
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-yellow {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #292929;
+  background: $coloryellow;
+  border: none;
+  width: 100%;
+  padding: 23px 23px 22px;
+  box-sizing: border-box;
+  margin: 0 0 7px;
+  &:hover {
+    color: $colorblue;
+  }
+}
+.btn-yellow_arrow {
+  width: auto;
+  padding: 27px 47px 28px 43px;
+  min-width: 337px;
+  b {
+    font-weight: 600;
+    vertical-align: middle;
+  }
+  svg {
+    vertical-align: middle;
+    margin: 0 0 0 13px;
+    path {
+      transition: all 0.2s ease;
+    }
+  }
+  &:hover {
+    svg {
+      path {
+        fill: #36348E;
+      }
+    }
+  }
+}
+h2 {
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 165px;
+  text-transform: capitalize;
+  color: #252525;
+  margin: 0 0 35px;
+}
+

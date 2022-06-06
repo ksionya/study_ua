@@ -1,0 +1,183 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: $colorwhite;
+  .wrapper {
+    position: relative;
+  }
+}
+.header-logo {
+  display: inline-block;
+  background: $colorblue;
+  padding: 22px 24px 14px 23px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 100;
+  img {
+    transition: all 0.2s ease;
+  }
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
+.header-menu {
+  margin: 0 59px 0 0;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    line-height: 91px;
+  }
+  a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 27px;
+    color: $colorblack;
+    text-decoration: none;
+    padding: 32px 15px;
+    transition: all 0.2s ease;
+    &:hover {
+      background: $coloryellow;
+    }
+  }
+}
+.header-right {
+  padding: 32px 0;
+  a {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $colorblack;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    &:hover {
+      color: $colorblue;
+    }
+  }
+}
+.header-in {
+  display: flex;
+  justify-content: flex-end ;
+}
+.language {
+  display: inline-block;
+  position: relative;
+  width: 59px;
+  cursor: pointer;
+  margin: 0 0 0 37px;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.2s ease;
+  left: -4px;
+  z-index: 100;
+  &.show {
+    overflow: visible;
+    opacity: 1;
+  }
+}
+  li {
+    background: $colorwhite;
+    padding: 2px 5px;
+  }
+  a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  &:before {
+    content: '';
+    background: url("../images/svg/arrow-select.svg");
+    width: 6px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transition: all 0.2s ease;
+    margin: -2px 0 0;
+  }
+  &:after {
+  content: '';
+    background: url("../images/svg/planet.svg");
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 3px;
+    right: 11px;
+}
+
+}
+.language.active {
+  ul {
+    top: 27px;
+
+  }
+  &:before {
+    transform: rotate(-180deg);
+  }
+}
+.burger {
+  display: none;
+  cursor: pointer;
+  margin: 0 0 0 20px;
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    background: $colorblack;
+    width: 30px;
+    height: 2px;
+    position: relative;
+    transition: all 0.1s ease;
+    &:before {
+      content: '';
+      display: inline-block;
+      background: $colorblack;
+      width: 30px;
+      height: 2px;
+      position: absolute;
+      top: -6px;
+      left: 0;
+      transition: all 0.3s ease;
+    }
+    &:after {
+      content: '';
+      display: inline-block;
+      background: $colorblack;
+      width: 30px;
+      height: 2px;
+      position: absolute;
+      top: 6px;
+      left: 0;
+      transition: all 0.3s ease;
+
+    }
+  }
+}
+.burger.active {
+  span {
+    background: transparent;
+    &:before {
+      transform: rotate(-45deg);
+      top: 0;
+    }
+    &:after {
+      transform: rotate(45deg);
+      top: 0;
+    }
+
+  }
+}

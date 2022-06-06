@@ -1,0 +1,1084 @@
+@media screen and (max-width: 1240px) {
+  .decor-element {
+    right: 20px;
+  }
+  .facts-item {
+    padding: 0 15px;
+  }
+  .facts-list {
+    margin: 0 -15px;
+  }
+  .program-advantages_text {
+    padding: 65px 575px 30px 30px;
+    margin: 0 0 0 -20px;
+  }
+  .advantages-carousel {
+    width: 550px;
+    height: 550px;
+  }
+  h2 {
+    font-size: 165px;
+  }
+  .school-list {
+    padding: 100px 0 0;
+  }
+  .banner-block_blue {
+    padding: 80px 0 80px 0px;
+    .in {
+      padding: 0;
+    }
+  }
+  .stages-block {
+    b {
+      right: auto;
+      left: 260px;
+      bottom: 22px;
+    }
+  }
+  .stages-list {
+    padding: 0;
+    margin: 0 -20px;
+  }
+  .stages-item {
+    padding: 0 20px;
+  }
+
+  .circle-decor {
+    margin: 0 auto;
+  }
+  .benefits-block {
+    b {
+      right: auto;
+      left: 395px;
+      bottom: 15px;
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+  .benefits-item {
+    padding: 0 10px;
+    img {
+      max-width: 185px;
+    }
+  }
+  .benefits-list {
+    margin: 0 -10px;
+  }
+  .team-list_item {
+    padding: 35px 30px;
+  }
+  .team-block {
+    b {
+      right: 10px;
+      max-width: 200px;
+      left: auto;
+    }
+  }
+  .reviews-block {
+    b {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+  .contact-block {
+    margin: 0 0 100px;
+    h2 {
+      padding: 0;
+    }
+    &:after {
+      width: 100%;
+    }
+  }
+  .contact-block_img {
+    img {
+      width: 100%;
+      top: auto;
+      bottom: 52px;
+    }
+  }
+  .contact-title {
+    bottom: 52px;
+  }
+  .contact-block_text {
+    padding: 0 50px 52px 50px;
+  }
+  .footer-left {
+    p {
+      max-width: 235px;
+    }
+  }
+  .copyright {
+    padding: 30px 0;
+  }
+  .reviews-block {
+    h2 {
+      font-size: 140px;
+    }
+    b {
+      left: 600px;
+    }
+
+  }
+  .stages-block {
+    margin: 300px 0 0;
+    b {
+      font-size: 40px;
+      line-height: 45px;
+      max-width: 300px;
+    }
+  }
+  .stages-block_img {
+    top: -300px;
+  }
+  .steps-block {
+    b {
+      top: 35px;
+      left: 260px;
+    }
+  }
+  .main-block_info {
+    max-width: 600px;
+    h1 {
+      font-size: 80px;
+      line-height: 90px;
+    }
+  }
+  .info-block {
+    overflow: hidden;
+    img {
+      bottom: 0;
+      height: 100%;
+      right: -200px;
+      left: auto;
+    }
+
+  }
+  .main-block {
+    &:after {
+      width: 425px;
+    }
+    &:before {
+      right: 425px;
+    }
+  }
+  .advantages-item_in {
+    min-height: 185px;
+  }
+  .steps-list {
+    margin: 0 -10px;
+  }
+  .steps-item {
+    padding: 0 10px;
+  }
+
+}
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  h2 {
+    font-size: 125px;
+    line-height: 125px;
+  }
+  .facts-list {
+    margin: 0 -10px;
+  }
+  .facts-item {
+   padding: 0 10px;
+    b {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    img {
+      width: 40px;
+    }
+    br {
+      display: none;
+    }
+  }
+  .college-block_title {
+    width: 100%;
+  }
+  .college-block_text {
+    width: 100%;
+    padding: 30px 0 0;
+  }
+  .program-advantages_text {
+    padding: 65px 0 30px 30px;
+    h3 {
+      max-width: none;
+    }
+    li {
+      max-width: none;
+    }
+    &:after {
+      width: auto;
+      right: -20px;
+    }
+  }
+  .advantages-carousel {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 0 auto 30px;
+  }
+  .program-advantages {
+    padding: 0;
+  }
+  .school-item {
+
+    h4 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    li {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .school-item_img {
+    min-height: 150px;
+    margin: 0 0 20px;
+  }
+  .school-list {
+    padding: 60px 0 0;
+  }
+  .steps-block {
+    padding: 75px 0 63px;
+    b {
+      font-size: 40px;
+      line-height: 45px;
+      left: 190px;
+      top: 20px;
+    }
+    h2 {
+      max-width: 615px;
+    }
+    &:after {
+      width: 100%;
+      height: 600px;
+      background-size: cover;
+    }
+  }
+  .steps-item {
+    i {
+      font-size: 50px;
+      line-height: 65px;
+    }
+    h4 {
+      font-size: 22px;
+      line-height: 29px;
+    }
+  }
+  .steps-item_in {
+    padding: 18px 25px 14px 25px;
+  }
+  .stages-block {
+    margin: 150px 0 0;
+  }
+  .stages-block_img {
+    padding: 0 60px;
+    top: -250px;
+  }
+  .stages-item {
+    h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+  .benefits-block {
+    padding: 100px 0 80px;
+    h2 {
+      max-width: 550px;
+    }
+    b {
+      left: 310px;
+    }
+    p {
+      max-width: none;
+    }
+    &:after {
+      width: 443px;
+      height: auto;
+      top: 450px;
+    }
+  }
+  .team-advantages {
+    display: flex;
+  }
+  .advantages-item_in {
+    padding: 25px 20px 30px 20px;
+    min-height: 100%;
+  }
+  .team-list_item {
+    padding: 25px 10px 30px;
+  }
+.video-block {
+  height: 500px;
+  h3 {
+    max-width: 500px;
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0 0 35px;
+  }
+  p {
+    font-size: 25px;
+    line-height: 28px;
+    max-width: 470px;
+  }
+}
+  .info-block {
+    padding: 300px 0 50px;
+  }
+  .reviews-block {
+    padding: 100px 0 0;
+    h2 {
+      font-size: 100px;
+      line-height: 100px;
+    }
+    b {
+      left: 430px;
+      top: 5px;
+    }
+  }
+  .contact-block {
+    padding: 100px 0 63px;
+    margin: 0 0 75px;
+    h2 {
+      font-size: 125px;
+      line-height: 125px;
+    }
+    &:after {
+      top: 230px;
+    }
+    .wrapper {
+      &:before {
+        bottom: -75px;
+        height: 725px;
+        background-size: contain;
+      }
+    }
+  }
+  .contact-block_text {
+    padding: 0 25px 35px 0px;
+  }
+  .footer-phones {
+    padding: 30px 28px 0 0;
+  }
+.footer-contacts {
+  padding: 30px 0 0;
+}
+  .footer-right {
+    padding: 35px 0 65px 47px;
+    align-items: center;
+  }
+  .footer-left {
+    padding: 65px 0 65px;
+    text-align: center;
+    p {
+      margin: 15px 0 0;
+      max-width: none;
+      text-align: left;
+    }
+  }
+  .footer-logo {
+    img {
+      width: 100px;
+    }
+  }
+  .footer-in {
+    &:before {
+      bottom: 0;
+      height: auto;
+    }
+  }
+  .info-block {
+    img {
+      right: -300px;
+    }
+  }
+  .copyright {
+    padding: 15px 0;
+  }
+  .team-block {
+    b {
+      position: relative;
+      max-width: none;
+      bottom: auto;
+      left: 15px;
+      right: auto;
+    }
+  }
+  .advantages-item {
+    padding: 0 5px;
+  }
+  .team-list_img {
+    width: 350px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    &:after {
+      width: 370px;
+      height: 370px;
+      background-size: cover;
+      top: -10px;
+      left: -15px;
+    }
+  }
+  .team-list_item {
+    padding: 35px 15px;
+    position: relative;
+  }
+  .team-list_text {
+    width: 100%;
+    padding: 22px 0 0 375px;
+    float: right;
+    min-height: 350px;
+    box-sizing: border-box;
+  }
+  .slick-arrow {
+    left: 390px;
+    right: auto;
+    bottom: 15px;
+  }
+  .slick-next {
+    margin: 0 0 0 60px;
+  }
+  .advantages-item_in {
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .header-logo {
+    padding: 15px 20px 10px 20px;
+    img {
+      width: 67px;
+    }
+  }
+  .header-right {
+    padding: 20px 0;
+  }
+  .main-block {
+    padding: 100px 0 50px;
+    &:after {
+      width: 275px;
+    }
+    &:before {
+      right: 275px;
+    }
+    .in {
+      justify-content: space-between;
+    }
+  }
+  .main-block_info {
+    max-width: none;
+    padding: 0 425px 0 0;
+    margin: 0;
+    h1 {
+      font-size: 55px;
+      line-height: 70px;
+    }
+    br {
+      display: none;
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  .main-block_bottom {
+    li {
+      width: 67px;
+      height: 67px;
+      line-height: 67px;
+    }
+     p {
+       font-size: 14px;
+       line-height: 20px;
+       margin: 10px 0;
+     }
+  }
+  .contact-form {
+    padding: 48px 30px 50px 30px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+    h3 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 23px;
+    }
+  }
+  .burger {
+    display: inline-block;
+  }
+  .header-menu {
+    display: none;
+    position: absolute;
+    background: $colorwhite;
+    margin: 0;
+    z-index: 10;
+    width: 50%;
+    right: -100%;
+    top: -200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    li {
+      display: block;
+
+    }
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
+  .header-menu.show {
+   display: block;
+    right: 0;
+    top: 68px;
+    opacity: 1;
+    visibility: visible;
+
+
+
+  }
+  .header {
+    border-bottom: 1px solid $colorblue;
+  }
+  .form-item {
+    input {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 18px 23px;
+    }
+  }
+  .btn-yellow {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 19px 23px 18px;
+  }
+  .benefits-item {
+    .in {
+      min-height: 327px;
+      padding: 43px 35px 35px 20px;
+    }
+    p {
+      max-width: 230px;
+    }
+  }
+  .facts-block {
+    padding: 65px 0;
+  }
+  .college-block {
+    padding: 70px 0 40px;
+  }
+  .banner-block_blue {
+    padding: 60px 0 50px;
+  }
+  .benefits-list {
+    .slick-arrow {
+      left: 50%;
+      margin: 0 0 0 -60px;
+      bottom: 0;
+    }
+    .slick-next {
+      margin: 0;
+    }
+  }
+  .blue-label {
+    width: 160px;
+    height: 160px;
+    bottom: -35px;
+    right: -15px;
+    padding: 30px 10px;
+  }
+  .reviews-item_title {
+    margin: 65px 0 0 -14px;
+
+    h4 {
+      font-size: 35px;
+      line-height: 39px;
+      width: 200px;
+      height: 100px;
+      padding: 25px 41px 5px;
+    }
+  }
+  .reviews-item_text {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: auto;
+    margin: 110px 0 0;
+    p {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 12px 15px 13px;
+    }
+  }
+  .contact-title {
+    padding: 12px 30px 12px 10px;
+    b {
+      font-size: 22px;
+      line-height: 35px;
+    }
+  }
+  .reviews-item {
+    &:after {
+      width: 62px;
+      height: 62px;
+      background-size: cover;
+    }
+  }
+  .steps-list {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 65px;
+    line-height: 65px;
+    margin: 0 0 30px;
+  }
+  .school-list {
+    margin: 0;
+  }
+  .school-item {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 25px;
+    &:hover {
+      top: -20px;
+    }
+  }
+  .steps-item {
+    width: 100%;
+    padding: 0;
+  }
+  .steps-list {
+    margin: 0;
+    padding: 0;
+  }
+  .steps-block {
+    h2 {
+      max-width: 335px;
+    }
+    b {
+      font-size: 25px;
+      line-height: 30px;
+      left: 100px;
+      max-width: 165px;
+      top: 5px;
+    }
+  }
+  .stages-item {
+    width: 100%;
+    padding: 0;
+    h4 {
+      max-width: none;
+    }
+  }
+  .stages-list {
+    margin: 0;
+  }
+  .stages-block {
+    b {
+      font-size: 25px;
+      line-height: 30px;
+      left: 120px;
+      bottom: 0;
+    }
+    h2 {
+      max-width: 335px;
+    }
+  }
+  .benefits-block {
+    h2 {
+      max-width: 335px;
+    }
+    b {
+      font-size: 25px;
+      line-height: 30px;
+      max-width: 175px;
+      left: 160px;
+      bottom: 0;
+    }
+  }
+  .advantages-item {
+padding: 0;
+    width: 100%;
+  }
+  .team-advantages {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .reviews-block {
+    padding: 55px 0 0;
+    h2 {
+      font-size: 45px;
+      line-height: 45px;
+    }
+    b {
+      font-size: 25px;
+      line-height: 25px;
+      max-width: 116px;
+      left: 210px;
+      top: -5px;
+    }
+  }
+  .footer-in {
+    .wrapper {
+      flex-wrap: wrap;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  .footer-right {
+    width: 100%;
+    padding: 15px 0 45px;
+  }
+  .footer-left {
+    position: relative;
+    margin: 0 -20px;
+    width: auto;
+    padding: 35px 20px 45px;
+    p {
+      padding: 0 0 0 120px;
+      margin: 0;
+    }
+  }
+  .footer-logo {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+  }
+  .contact-block {
+    padding: 55px 0 35px;
+    margin: 0 0 45px;
+    h2 {
+      font-size: 65px;
+      line-height: 65px;
+      max-width: 335px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &:after {
+      top: 120px;
+    }
+  }
+  .contact-block_text {
+    width: 100%;
+    padding: 25px 0 35px;
+  }
+  .contact-block_img {
+    width: 100%;
+    order: -1;
+    img {
+      position: relative;
+      bottom: auto;
+      display: block;
+    }
+  }
+  .contact-block_in {
+    flex-wrap: wrap;
+  }
+  .contact-title {
+    bottom: 0;
+    padding: 15px 20px;
+    b {
+      font-size: 20px;
+      line-height: 33px;
+    }
+  }
+  .video-block {
+    padding: 75px 0 0;
+    height: 400px;
+
+    h3 {
+      font-size: 45px;
+      line-height: 45px;
+      max-width: 380px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 23px;
+      max-width: 350px;
+    }
+
+  }
+  .reviews-item_title {
+    h4 {
+      font-size: 35px;
+      line-height: 39px;
+      width: 200px;
+      height: 115px;
+    }
+  }
+  .reviews-item_text {
+    p {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 12px 15px 13px;
+    }
+  }
+  .team-list_img {
+    float: none;
+    width: 100%;
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 10px 15px;
+    &:after {
+      width: auto;
+      height: auto;
+      background-size: contain;
+      top: -10px;
+      left: -10px;
+      bottom: -10px;
+      right: -10px;
+    }
+  }
+  .team-list_text {
+    float: none;
+    padding: 22px 0 0 0;
+  }
+  .slick-arrow {
+    left: 50%;
+    margin: 0 0 0 -60px;
+  }
+  .slick-next {
+    margin: 0;
+  }
+  .benefits-block {
+    padding: 55px 0 30px;
+    &:after {
+      width: 40%;
+      height: auto;
+      top: 25%;
+    }
+  }
+  .banner-block_blue {
+    h3 {
+      font-size: 30px;
+      line-height: 35px;
+      max-width: 250px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 250px;
+    }
+  }
+  .benefits-item {
+
+    p {
+      max-width: 230px;
+    }
+    img {
+      max-width: none;
+    }
+  }
+  .facts-item {
+    width: 100%;
+    padding: 0 10px 15px;
+    text-align: center;
+    &:after {
+      display: none;
+    }
+    p {
+      margin: 10px 0 0;
+    }
+  }
+  .main-block_info {
+    padding: 0;
+    h1 {
+      font-size: 45px;
+      line-height: 60px;
+    }
+    p {
+      margin: 0 0 49px;
+    }
+  }
+  .main-block {
+    &:before {
+      right: 100px;
+    }
+    &:after {
+      width: 100px;
+    }
+    .in {
+      flex-wrap: wrap;
+    }
+  }
+  .contact-form {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: translateY(0);
+    width: 100%;
+    padding: 48px 15px 50px 15px;
+    margin: 35px 0 0;
+  }
+  .main-block_bottom {
+    p {
+      max-width: 135px;
+      margin: 10px 0;
+    }
+  }
+.facts-block {
+  padding: 45px 0 20px;
+  .slick-arrow {
+    margin: 0;
+    bottom: 10px;
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next {
+    right: 0;
+    left: auto;
+  }
+  .slick-dots {
+       margin: 10px 0 0;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+     }
+}
+  .facts-list {
+    padding: 0 0 75px;
+  }
+  .team-block {
+    b {
+      left: 15px;
+    }
+  }
+  .team-list_item {
+    padding: 35px 10px;
+  }
+  .copyright {
+    padding: 10px 0;
+  }
+  .college-block {
+    padding: 30px 0 40px;
+  }
+  .steps-block {
+    padding: 55px 0 40px;
+
+  }
+  .stages-block_img {
+    top: 0;
+    padding: 0;
+    position: relative;
+  }
+  .stages-block {
+    margin: 0;
+    padding: 55px 0 15px;
+    h2 {
+      margin: -30px 0 30px;
+    }
+  }
+  .advantages-carousel {
+    width: 100%;
+    height: auto;
+  }
+  .program-advantages_text {
+    padding: 50px 20px 30px;
+    h3 {
+      font-size: 35px;
+      line-height: 38px;
+      margin: 0 0 40px;
+    }
+  }
+  .program-advantages {
+    .slick-arrow {
+      margin: 0;
+    }
+    .slick-next {
+      margin: 0 0 0 60px;
+    }
+  }
+  .info-block {
+    h3 {
+      font-size: 35px;
+      line-height: 40px;
+      max-width: 300px;
+    }
+  }
+  .carousel-block {
+    overflow: visible;
+  }
+  .banner-block {
+    &:after {
+      width: 150%;
+    }
+  }
+  .blue-label {
+    width: 140px;
+    height: 140px;
+    padding: 25px 10px;
+  }
+  .header-menu.show {
+    width: 100%;
+    padding: 11px 0 0;
+  }
+  .header-logo {
+    padding: 10px 15px 5px 15px;
+    img {
+      width: 57px;
+    }
+  }
+  .burger {
+    margin: 0 0 0 10px;
+  }
+  .school-list {
+    padding: 40px 0 0;
+  }
+  .reviews-item_title {
+    margin: 35px 0 0 -9px;
+    h4 {
+      font-size: 20px;
+      line-height: 25px;
+      width: 170px;
+      height: 50px;
+      padding: 14px 25px 0;
+    }
+  }
+  .reviews-item_text {
+    margin: 65px 0 0;
+    p {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 5px 15px 6px;
+    }
+  }
+  .reviews-item {
+    &:after {
+      width: 42px;
+      height: 42px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .video-block {
+    background: #595b5c;
+    img {
+      height: 350px;
+      top: auto;
+      bottom: 0;
+    }
+  }
+}

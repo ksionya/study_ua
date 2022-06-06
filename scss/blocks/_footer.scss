@@ -1,0 +1,137 @@
+.footer {
+
+  background: #292929;
+
+}
+.footer-in {
+  position: relative;
+  z-index: 1;
+.wrapper {
+  display: flex;
+}
+  &:before {
+    content: '';
+    background: $colorblue;
+    height: 268px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    z-index: -1;
+  }
+}
+.footer-left {
+  width: 38.5%;
+  padding: 77px 0 69px 0;
+  background: $colorblue;
+
+  p {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 28px;
+    color: $colorwhite;
+    max-width: 279px;
+    margin: 0 0 0 16px;
+    vertical-align: middle;
+  }
+}
+.footer-logo {
+  display: inline-block;
+  vertical-align: middle;
+  img {
+    transition: all 0.2s ease;
+  }
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
+.footer-right {
+  width: 61.5%;
+  display: flex;
+ // align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 47px;
+  box-sizing: border-box;
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: $colorwhite;
+  margin: 0 0 18px;
+}
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    margin: 0 0 9px;
+  }
+  a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $colorwhite;
+    text-decoration: none;
+  }
+
+}
+.social-links {
+  padding: 49px 0;
+
+  a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $coloryellow;
+    text-align: center;
+    margin: 0 0 10px;
+    transition: all 0.2s ease;
+    line-height: 50px;
+    &:hover {
+      background: $colorblue;
+    }
+    &:last-child {
+      margin: 0;
+    }
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.copyright {
+  padding: 40px 0;
+  text-align: center;
+  background: $colorwhite;
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+  }
+}
+.col {
+  overflow: hidden;
+}
+.footer-phones {
+  padding: 82px 32px 0;
+  max-width: 320px;
+  box-sizing: border-box;
+  float: left;
+  li {
+    padding: 0 20px 0 0;
+  }
+}
+.footer-contacts {
+  padding: 82px 33px 0 10px;
+  float: left;
+  li {
+    display: block;
+  }
+}
